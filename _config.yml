@@ -6,38 +6,22 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+name: Ajay Kumar Tekam
+title: DevOps | AWS | Linux Administration | Automation | Cloud
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+github_username:  ajaytekam
+linkedin_username: ajaykt1
+youtube_username: secarticles 
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+- title: DockerHub
+  icon: fa-brands fa-docker
+  url: https://hub.docker.com/u/ajaytekam
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,16 +34,10 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
-
+  Hi, My name is Ajay, an aspiring DevOps/Cloud Engineer who likes to work on challenging projects and challenging environments. I like to learn new things related to IT/technology. I have good familiarity and understanding of DevOps methodologies like SDLC, software development models like waterfall and agile, Continous Integration and Contineous  Deployment, Devops cicd tools like Jenkins, git, maven, gradle, terraform, ansible, vagrant, docker, kubernetes, Linux commandline and operating systems (ubuntu, redhat, centos. In scripting/programming side i have good experiance of shell and python scripting. I have written multiple provision script on bash and with python i wrote several automation script using libraries like boto3, paramiko, requests, fabric etc. I also have basic knowledge of batch scripting and powershell scripting and i am currently learning Golang. In Amazon Web Services i have good understanding of services like  EC2, S3, ECR, ECS, EKS, Route53, RDS, SNS, CloudFront, CodePipeline, CodeBuild, Lambda services. 
+  
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -67,20 +45,17 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
+        title:  CICD Pipeline for Java Application to Deploy on AWS ECS Cluster using Jenkins, Github, Docker, SonarQube, Terraform, Maven
+        link: https://github.com/Ajaytekam/Jenkins-CICD
+        link_text: https://github.com/Ajaytekam/Jenkins-CICD
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          - Created EC2 instances for Jenkins, sonarqube and Nexus server using Terraform. 
+          - Integrated Jenkins with sonarqube for static code analysis & quality gate checksadn Nexus server to store project artifact.  
+          - Created Jenkins pipeline build, source code is fetched from github repository, project gets built using maven, artifact gets stored on nexus server and docker image gets build and pushed on to the AWS ECR and gets deployed on the AWS ECS cluster. Also set up a slack notification for Build Jobs
+          - Set up GitHub webhook to trigger Jenkins build job
+          - Created AWS RDS for database , Amazon Elastic Cache and Amazon Active MQ services.
+
+
   - title: Experience
     layout: list
     content:
@@ -107,9 +82,12 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      Proficient in DevOps, automation, CICD, Build Pipelines, Jenkins pipelines, version control, scripting, Cloud services, AWS, Containers and microservices, SDLC models. 
+
+      Oh! And i also like to race on [typeracer.com](https://data.typeracer.com/pit/profile?user=bunny_and_tree) for fun and ofcourse to increase my typing speed (hehe...nerdy stuff you know)
+      ![My Score](https://data.typeracer.com/misc/badge?user=bunny_and_tree)
+
 
 # Footer
 footer_show_references: true
