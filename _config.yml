@@ -10,7 +10,7 @@ name: Ajay Kumar Tekam
 title: DevOps | AWS | Linux Administration | Automation | Cloud
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
 github_username:  ajaytekam
@@ -34,6 +34,7 @@ additional_links:
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, My name is Ajay, an aspiring DevOps/Cloud Engineer who likes to work on challenging projects and challenging environments. I like to learn new things related to IT/technology. I have good familiarity and understanding of DevOps methodologies like SDLC, software development models like waterfall and agile, Continous Integration and Contineous  Deployment, Devops cicd tools like Jenkins, git, maven, gradle, terraform, ansible, vagrant, docker, kubernetes, Linux commandline and operating systems (ubuntu, redhat, centos. In scripting/programming side i have good experiance of shell and python scripting. I have written multiple provision script on bash and with python i wrote several automation script using libraries like boto3, paramiko, requests, fabric etc. I also have basic knowledge of batch scripting and powershell scripting and i am currently learning Golang. In Amazon Web Services i have good understanding of services like  EC2, S3, ECR, ECS, EKS, Route53, RDS, SNS, CloudFront, CodePipeline, CodeBuild, Lambda services. 
+  - [Download My Resume](Ajaytekam.pdf)
   
 content:
   - title: Projects # Title for the section
@@ -139,19 +140,15 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: top-leftt
         title: Masters of Computer Application ( MCA )  
         sub_title: Guru Ghasidas University Bilaspur
-        caption: 2018 - 2021
-        quote: >
-          CGPA - 7.8
+        caption: 2018 - 2021 <i>( CGPA - 7.8 )</i>
 
-      - layout: top-right
+      - layout: top-left
         title: Bachelors of Computer Application ( BCA )
         sub_title: Bilaspur University, Chhattisgarh  
-        caption: 2015 - 2018
-        quote: >
-          Percentage - 67%
+        caption: 2015 - 2018 <i>( Percentage - 67% )</i>
 
   - title: A Little More About Me
     layout: text
@@ -164,7 +161,7 @@ content:
 
 # Footer
 footer_show_references: true
-references_title: Resume site created using a Jekyll theme hosted on an AWS S3 bucket served on a Cloudfront distribution with automated CI/CD deployment using Github Actions, please see [https://github.com/Ajaytekam/s3_static_site](https://github.com/Ajaytekam/s3_static_site) for build details
+references_title: Resume site created using a Jekyll theme hosted on an AWS S3 bucket served on a Cloudfront distribution with automated CI/CD deployment using Github Actions, please see <a href="https://github.com/Ajaytekam/s3_static_site" target="_blank" rel="noopener noreferrer">https://github.com/Ajaytekam/s3_static_site</a> for build details
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
