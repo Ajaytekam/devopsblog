@@ -1,22 +1,19 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: Git repository where your resume will be hosted, only required if you
+  are hosting on GitHub (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
-
 # Personal info
 name: Ajay Kumar Tekam
 title: DevOps | AWS | Linux Administration | Automation | Cloud
-
 # Dark Mode (true/false/never)
 darkmode: never
-
 # Social links
-github_username:  ajaytekam
+github_username: ajaytekam
 linkedin_username: ajaykt1
-youtube_username: secarticles 
-
+youtube_username: secarticles
 # Additional icon links
 additional_links:
 # - title: another link
@@ -32,157 +29,163 @@ additional_links:
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.png
-about_content: | # this will include new lines to allow paragraphs
-  Hi, My name is Ajay, an aspiring DevOps/Cloud Engineer who likes to work on challenging projects and challenging environments. I like to learn new things related to IT/technology. I have good familiarity and understanding of DevOps methodologies like SDLC, software development models like waterfall and agile, Continous Integration and Contineous  Deployment, Devops cicd tools like Jenkins, git, maven, gradle, terraform, ansible, vagrant, docker, kubernetes, Linux commandline and operating systems (ubuntu, redhat, centos. In scripting/programming side i have good experiance of shell and python scripting. I have written multiple provision script on bash and with python i wrote several automation script using libraries like boto3, paramiko, requests, fabric etc. I also have basic knowledge of batch scripting and powershell scripting and i am currently learning Golang. In Amazon Web Services i have good understanding of services like  EC2, S3, ECR, ECS, EKS, Route53, RDS, SNS, CloudFront, CodePipeline, CodeBuild, Lambda services. 
-  - [Download My Resume](Ajaytekam.pdf)
-  
+about_content: "Hi, My name is Ajay, an aspiring DevOps/Cloud Engineer who likes to
+  work on challenging projects and challenging environments. I like to learn new things
+  related to IT/technology. I have good familiarity and understanding of DevOps methodologies
+  like SDLC, software development models like waterfall and agile, Continous Integration
+  and Contineous  Deployment, Devops cicd tools like Jenkins, git, maven, gradle,
+  terraform, ansible, vagrant, docker, kubernetes, Linux commandline and operating
+  systems (ubuntu, redhat, centos. In scripting/programming side i have good experiance
+  of shell and python scripting. I have written multiple provision script on bash
+  and with python i wrote several automation script using libraries like boto3, paramiko,
+  requests, fabric etc. I also have basic knowledge of batch scripting and powershell
+  scripting and i am currently learning Golang. In Amazon Web Services i have good
+  understanding of services like  EC2, S3, ECR, ECS, EKS, Route53, RDS, SNS, CloudFront,
+  CodePipeline, CodeBuild, Lambda services. \n- [Download My Resume](Ajaytekam.pdf)\n" # this will include new lines to allow paragraphs
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Jenkins CICD Pipeline 
+        border: weak # Value of `weak` will display a weak border below this item. # Any 
+        # other value (or no value) means no border will be displayed
+        title: Jenkins CICD Pipeline
         link: https://github.com/Ajaytekam/Jenkins-CICD
         link_text: https://github.com/Ajaytekam/Jenkins-CICD
         quote: >
-          CICD Pipeline for Java Application to Deploy on AWS ECS Cluster using Jenkins, Github, Docker, SonarQube, Terraform, Maven
-        description: | # this will include new lines to allow paragraphs
-          - Created EC2 instances for Jenkins, sonarqube and Nexus server using Terraform. 
-          - Integrated Jenkins with sonarqube for static code analysis & quality gate checksadn Nexus server to store project artifact.  
-          - Created Jenkins pipeline build, source code is fetched from github repository, project gets built using maven, artifact gets stored on nexus server and docker image gets build and pushed on to the AWS ECR and gets deployed on the AWS ECS cluster. Also set up a slack notification for Build Jobs
-          - Set up GitHub webhook to trigger Jenkins build job
-          - Created AWS RDS for database , Amazon Elastic Cache and Amazon Active MQ services.
-        
+          CICD Pipeline for Java Application to Deploy on AWS ECS Cluster using Jenkins,
+          Github, Docker, SonarQube, Terraform, Maven
+
+        description: "- Created EC2 instances for Jenkins, sonarqube and Nexus server
+          using Terraform. \n- Integrated Jenkins with sonarqube for static code analysis
+          & quality gate checksadn Nexus server to store project artifact.  \n- Created
+          Jenkins pipeline build, source code is fetched from github repository, project
+          gets built using maven, artifact gets stored on nexus server and docker
+          image gets build and pushed on to the AWS ECR and gets deployed on the AWS
+          ECS cluster. Also set up a slack notification for Build Jobs\n- Set up GitHub
+          webhook to trigger Jenkins build job\n- Created AWS RDS for database , Amazon
+          Elastic Cache and Amazon Active MQ services.\n" # this will include new lines to allow paragraphs
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
+        border: weak # Value of `weak` will display a weak border below this item. # Any 
+        # other value (or no value) means no border will be displayed
         title: Kubernetes Cluster Deployment
-        link: https://github.com/Ajaytekam/K8s_Cluster_deploy 
+        link: https://github.com/Ajaytekam/K8s_Cluster_deploy
         link_text: https://github.com/Ajaytekam/K8s_Cluster_deploy
         quote: >
           Deploying Java Application on Kubernetes Cluster (Kops, aws EC2
-        description: | # this will include new lines to allow paragraphs
-          - Created and configured Kubernetes Clusters on AWS EC2 instance with kops and kubectl. Containerized the application, create docker images and pushed into dockerhub container registry.   
-          - Created Kubernetes manifest files to create deployment and service components for application, database, memcache and rabbitmq containers.  
-          - Created EC2 volume and mount it to database deployment, deployed all the components and setup AWS Route53 subdomain to access the web application.
 
+        description: "- Created and configured Kubernetes Clusters on AWS EC2 instance
+          with kops and kubectl. Containerized the application, create docker images
+          and pushed into dockerhub container registry.   \n- Created Kubernetes manifest
+          files to create deployment and service components for application, database,
+          memcache and rabbitmq containers.  \n- Created EC2 volume and mount it to
+          database deployment, deployed all the components and setup AWS Route53 subdomain
+          to access the web application.\n" # this will include new lines to allow paragraphs
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
+        border: weak # Value of `weak` will display a weak border below this item. # Any 
+        # other value (or no value) means no border will be displayed
         title: AWS App Deployment
-        link : https://github.com/Ajaytekam/AWSVprofileApp
+        link: https://github.com/Ajaytekam/AWSVprofileApp
         link_text: https://github.com/Ajaytekam/AWSVprofileApp
         quote: >
           Deploying Java Web Application on AWS using EC2, S3, Route53, ACM
-        description: | # this will include new lines to allow paragraphs
-          - Created EC2 instances for tomcat web server, mysql database, Memcached and Rabbit MQ service, create private hosted zone in Route53 for the backend services, create IAM roles to access with S3 access to deploy the artifact to app server from S3 Bucket, generate SSL Certificate and validate domain with ACM service
-          - Setup load balancer with autoscaling group and redirect the public load balancer dns to custom domain.  
 
+        description: "- Created EC2 instances for tomcat web server, mysql database,
+          Memcached and Rabbit MQ service, create private hosted zone in Route53 for
+          the backend services, create IAM roles to access with S3 access to deploy
+          the artifact to app server from S3 Bucket, generate SSL Certificate and
+          validate domain with ACM service\n- Setup load balancer with autoscaling
+          group and redirect the public load balancer dns to custom domain.  \n" # this will include new lines to allow paragraphs
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
+        border: weak # Value of `weak` will display a weak border below this item. # Any 
+        # other value (or no value) means no border will be displayed
         title: S3 Static website using Github actions
-        link : https://github.com/Ajaytekam/s3_static_site
+        link: https://github.com/Ajaytekam/s3_static_site
         link_text: https://github.com/Ajaytekam/s3_static_site
         quote: >
-          Hosted Jekyll Site on AWS S3 using GitHub Actions, Cloudfront CDN, Route53 and AWS Certificate Manager for SSL Certificate
-        description: | # this will include new lines to allow paragraphs
-          - Created CI pipeline using Github Actions to host static website on S3 Bucket.
-          - Website Artifcact is generated using Jykell (static site generator) and push onto S3 bucket, and CloudFront CDN is used to distribute website content, and a custom domain https://blog.aliencloud.tech is configured via Route53 service and AWS Certificate Manager for SSL Certificate.   
+          Hosted Jekyll Site on AWS S3 using GitHub Actions, Cloudfront CDN, Route53
+          and AWS Certificate Manager for SSL Certificate
 
+        description: "- Created CI pipeline using Github Actions to host static website
+          on S3 Bucket.\n- Website Artifcact is generated using Jykell (static site
+          generator) and push onto S3 bucket, and CloudFront CDN is used to distribute
+          website content, and a custom domain https://blog.aliencloud.tech is configured
+          via Route53 service and AWS Certificate Manager for SSL Certificate.   \n" # this will include new lines to allow paragraphs
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Containerizing NodeJs Application 
-        link : https://github.com/Ajaytekam/emartapp-Docker-Deploy
+        border: weak # Value of `weak` will display a weak border below this item. # Any 
+        # other value (or no value) means no border will be displayed
+        title: Containerizing NodeJs Application
+        link: https://github.com/Ajaytekam/emartapp-Docker-Deploy
         link_text: https://github.com/Ajaytekam/emartapp-Docker-Deploy
         quote: >
-          Containerizing NodeJs Application with angular, nodejs, Java, Mongodb, Mysql server
+          Containerizing NodeJs Application with angular, nodejs, Java, Mongodb, Mysql
+          server
+
         description: | # this will include new lines to allow paragraphs
           Create Dockerfile for Client app, nodejs api server, java api server, mongodb and mysql services, Create the docker-compose.yml file, build image, test the services, and push the docker images onto dockerhub.
-
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
+        border: weak # Value of `weak` will display a weak border below this item. # Any 
+        # other value (or no value) means no border will be displayed
         title: Containerizing Java application
-        link : https://github.com/Ajaytekam/docker-containerization-project 
+        link: https://github.com/Ajaytekam/docker-containerization-project
         link_text: https://github.com/Ajaytekam/docker-containerization-project
         quote: >
           Containerizing Java application with Apache tomcat, Nginx and Mysql server
+
         description: | # this will include new lines to allow paragraphs
           - Containerizing Java application with apache tomcat, nginx, mysql, rabbitmq and memcached server
-
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Setup Java application with Vagrant 
-        link : https://github.com/Ajaytekam/Vagrant-Web-Stack 
+        border: weak # Value of `weak` will display a weak border below this item. # Any 
+        # other value (or no value) means no border will be displayed
+        title: Setup Java application with Vagrant
+        link: https://github.com/Ajaytekam/Vagrant-Web-Stack
         link_text: https://github.com/Ajaytekam/Vagrant-Web-Stack
         description: | # this will include new lines to allow paragraphs
           Setup Java application with Apache tomcat, Nginx and Mysql server using Vagrant
-
-
-#   - title: Experience
-#     layout: list
-#     content:
-#       - layout: right
-#         title: Company name
-#         sub_title: Job title
-#         caption: Date Range (eg. November 2016 - present)
-#         link: Link to company (optional)
-#         quote: >
-#           Short description of the company (optional)
-#         description: | # this will include new lines to allow paragraphs
-#           Description of role
-  
+        #   - title: Experience
+        #     layout: list
+        #     content:
+        #       - layout: right
+        #         title: Company name
+        #         sub_title: Job title
+        #         caption: Date Range (eg. November 2016 - present)
+        #         link: Link to company (optional)
+        #         quote: >
+        #           Short description of the company (optional)
+        #         description: | # this will include new lines to allow paragraphs
+        #           Description of role
   - title: Education
     layout: list
     content:
       - layout: top-leftt
-        title: Masters of Computer Application ( MCA )  
+        title: Masters of Computer Application ( MCA )
         sub_title: Guru Ghasidas University Bilaspur
         caption: 2018 - 2021 <i>( CGPA - 7.8 )</i>
-
       - layout: top-left
         title: Bachelors of Computer Application ( BCA )
-        sub_title: Bilaspur University, Chhattisgarh  
+        sub_title: Bilaspur University, Chhattisgarh
         caption: 2015 - 2018 <i>( Percentage - 67% )</i>
-
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-
-      - Proficient in DevOps, automation, CICD, Build Pipelines, Jenkins pipelines, version control, scripting, Cloud services, AWS, Containers and microservices, SDLC models. 
-      - Oh! And i also like to race on [typeracer.com](https://data.typeracer.com/pit/profile?user=bunny_and_tree) for fun and ofcourse to increase my typing speed (hehe...nerdy stuff you know)   
-      - ![My Score](https://data.typeracer.com/misc/badge?user=bunny_and_tree)
-
-
+    content: "\n- Proficient in DevOps, automation, CICD, Build Pipelines, Jenkins
+      pipelines, version control, scripting, Cloud services, AWS, Containers and microservices,
+      SDLC models. \n- Oh! And i also like to race on [typeracer.com](https://data.typeracer.com/pit/profile?user=bunny_and_tree)
+      for fun and ofcourse to increase my typing speed (hehe...nerdy stuff you know)
+      \  \n- ![My Score](https://data.typeracer.com/misc/badge?user=bunny_and_tree)\n" # this will include new lines to allow paragraphs
 # Footer
 footer_show_references: true
-references_title: Resume site created using a Jekyll theme hosted on an AWS S3 bucket served on a Cloudfront distribution with automated CI/CD deployment using Github Actions, please see <a href="https://github.com/Ajaytekam/s3_static_site" target="_blank" rel="noopener noreferrer">https://github.com/Ajaytekam/s3_static_site</a> for build details
-
+references_title: Resume site created using a Jekyll theme hosted on an AWS S3 bucket
+  served on a Cloudfront distribution with automated CI/CD deployment using Github
+  Actions, please see <a href="https://github.com/Ajaytekam/s3_static_site" target="_blank"
+  rel="noopener noreferrer">https://github.com/Ajaytekam/s3_static_site</a> for build
+  details
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
 # remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
-
 sass:
   sass_dir: _sass
   style: compressed
-
 plugins:
- - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+  - jekyll-seo-tag
+exclude: ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/",
+  "vendor/gems/", "vendor/ruby/", "lib/", "scripts/", "docker-compose.yml"]
