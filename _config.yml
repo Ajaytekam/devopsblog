@@ -28,7 +28,7 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile.png
+about_profile_image: images/profile.jpg
 about_content: "Hi, My name is Ajay, an aspiring DevOps/Cloud Engineer who likes to
   work on challenging projects and challenging environments. I like to learn new things
   related to IT/technology. I have good familiarity and understanding of DevOps methodologies
@@ -41,7 +41,7 @@ about_content: "Hi, My name is Ajay, an aspiring DevOps/Cloud Engineer who likes
   requests, fabric etc. I also have basic knowledge of batch scripting and powershell
   scripting and i am currently learning Golang. In Amazon Web Services i have good
   understanding of services like  EC2, S3, ECR, ECS, EKS, Route53, RDS, SNS, CloudFront,
-  CodePipeline, CodeBuild, Lambda services. \n- [Download My Resume](Ajaytekam.pdf)\n" # this will include new lines to allow paragraphs
+  CodePipeline, CodeBuild, Lambda services. \n- <a href='https://resume-storage-ajaytekam.s3.ap-south-1.amazonaws.com/AjayTekam.pdf' target='_blank'>Download My Resume</a>\n" # this will include new lines to allow paragraphs
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
